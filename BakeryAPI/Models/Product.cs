@@ -15,6 +15,5 @@ namespace BakeryAPI.Models
         [ForeignKey("SupplierId")]
         public Guid SupplierId { get; set; }
         public Supplier? Supplier { get; set; }
-
     }
 }
